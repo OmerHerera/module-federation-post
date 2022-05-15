@@ -55,8 +55,12 @@ module.exports = {
       name: 'host_react_module',
       filename: 'remoteEntry.js',
       remotes: {
-        remote_nextjs_module: 'remote_nextjs_module@http://localhost:8081/_next/static/chunks/remoteEntry.js',
-        remote_react_module: 'remote_react_module@http://localhost:8082/remoteEntry.js',
+        // The following is when running remote at Vercel
+        remote_nextjs_module: 'remote_nextjs_module@https://remote-nextjs-module.vercel.app/_next/static/chunks/remoteEntry.js',
+        remote_react_module: 'remote_react_module@https://remote-react-module.vercel.app/RemoteEntry.js',
+        // The following is when running locally
+        // remote_nextjs_module: 'remote_nextjs_module@http://localhost:8081/_next/static/chunks/remoteEntry.js',
+        // remote_react_module: 'remote_react_module@http://localhost:8082/remoteEntry.js',
       },
       exposes: {
       },

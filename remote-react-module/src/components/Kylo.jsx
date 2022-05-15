@@ -5,7 +5,7 @@ const Nav = () => {
   return (
     <div>
       <div className='Text'>
-        This is the React Remote Component hosted at localhost:3030
+        This is the React Remote Component hosted at localhost:8082
       </div>
       <div className="Kylo"></div>
     </div>
