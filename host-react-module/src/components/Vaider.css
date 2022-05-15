@@ -1,0 +1,16 @@
+.Vader {
+  background-image: url(https://res.cloudinary.com/omher/image/upload/v1652424925/mf/darth-vader_wkvzvs.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  color: black;
+  resize: both;
+  overflow: scroll;
+  margin: auto;
+}
+.Text {
+  font-size: 20px;
+  text-align: center;
+}

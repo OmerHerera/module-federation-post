@@ -1,0 +1,16 @@
+.Kylo {
+  background-image: url(https://res.cloudinary.com/omher/image/upload/v1652426186/mf/kylo_ren_qmp5jf.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  border: 2px solid;
+  color: black;
+  resize: both;
+  overflow: scroll;
+  margin: auto;
+}
+.Text {
+  font-size: 20px;
+  text-align: center;
+}
